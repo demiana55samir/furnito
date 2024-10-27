@@ -1,18 +1,7 @@
-// .btn10{
-//     border: 1px solid white; 
-//     padding-top: 5px;
-//     padding-bottom: 5px;
-//     color: chocolate; 
-//     background-color: white;
-//     border-radius: 0%;
-// }
-
 .btn10{
   border-color: #B88E2F;
-  ;
   border-radius: 0%;
    color:  #B88E2F;
-   ;
    padding: 10px;
    padding-right: 50px;
    padding-left: 50px;
@@ -56,7 +45,7 @@
       z-index: 2; 
     }
   
-    &:hover .overlay {
+    :hover .overlay {
       opacity: 1;
     }
   
