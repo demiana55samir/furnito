@@ -10,7 +10,18 @@
     position: relative;
 
 }
-
+.num{
+  border: 0 solid white; 
+        background-color: white;
+         color: grey;
+         width:40px
+}
+.default{
+  border: 0 solid white; 
+            background-color: white;
+            color: grey;
+            width: 90px
+}
 img{
   opacity: 1;
   object-fit: fill;

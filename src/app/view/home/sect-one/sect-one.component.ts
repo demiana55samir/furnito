@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { CardComponent } from "../card/card.component";
 
 @Component({
   selector: 'app-sect-one',
   standalone: true,
-  imports: [CardComponent],
+  imports: [],
   templateUrl: './sect-one.component.html',
   styleUrl: './sect-one.component.scss'
 })

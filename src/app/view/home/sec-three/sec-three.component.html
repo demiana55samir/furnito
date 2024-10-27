@@ -1,25 +1,126 @@
-<div class="" 
-    style="
-     background-color: #FCF8F3;
-     margin-top: 30px;
-      padding: 15px;
-      ">
+<div class="con" >
     <div class="row">
-        <div class="col-12 col-md-4 mt-3 d-flex flex-column ms-0 ms-md-5" style="justify-content: center;">
+        <div class="col-12 col-md-4 mt-3 d-flex flex-column ms-0 ms-md-5 justify-content-center">
             <h1>50+ Beautiful Room Inspiration </h1>
             <p>Our designers already make a lot of beautiful pritotipe of rooms that inspire you</p>
-            <button class="btn btn-light" style=" border-color:  #B88E2F;
-                border-radius: 0%;
-                color: white;
-                padding-left: 50px;
-                padding-right: 50px;
-                background-color:  #B88E2F;
-                margin: 10px;
-                 "> Show More</button>
+            <button class="btn btn-light"> Show More</button>
         </div>
             <!-- coloumn slider -->
-        <div class="col-12 col-md-6 ">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="col-12 col-md-6 d-flex">
+   
+      
+        </div>
+</div>
+</div>
+<!--  
+<owl-carousel-o></owl-carousel-o> -->
+
+<div class="container">
+  <div class="row">
+    <div class="owl-carousel owl-theme d-flex">
+      <div class="item" *ngFor="let item of items">
+        <div class="card">
+          <div class="card-body">
+            <img [src]="item.image" alt="img">
+            <hr/>
+            <h5 class="card-title text-center">{{ item.title }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 
+   <div class="container">
+        <div class="row">
+          <div class="owl-carousel owl-theme ">
+  
+          <div class="item">
+            <div class="card">
+              <div class="card-body">
+                <img src="image 1.png" alt="img">
+                <hr/>
+                <h5 class="card-title text-center">Title</h5>
+              </div>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="card">
+              <div class="card-body">
+                <img src="image 1.png" alt="img">
+                <hr/>
+                <h5 class="card-title text-center">Title</h5>
+              </div>
+            </div>
+          </div>
+  
+  
+         <div class="item">
+            <div class="card">
+              <div class="card-body">
+                <img src="image 1.png" alt="img">
+                <hr/>
+                <h5 class="card-title text-center">Title</h5>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+         </div>
+       </div>
+
+
+<div class="carousel-container">
+<div class="owl-carousel owl-theme ">
+  <div class="item"><h4>1</h4></div>
+  <div class="item"><h4>2</h4></div>
+  <div class="item"><h4>3</h4></div>
+  <div class="item"><h4>4</h4></div>
+  <div class="item"><h4>5</h4></div>
+  <div class="item"><h4>6</h4></div>
+  <div class="item"><h4>7</h4></div>
+  <div class="item"><h4>8</h4></div>
+  <div class="item"><h4>9</h4></div>
+  <div class="item"><h4>10</h4></div>
+  <div class="item"><h4>11</h4></div>
+  <div class="item"><h4>12</h4></div>
+</div></div> -->
+
+<!-- 000000000000000000000000000000000000000000000 -->
+<!-- <div class="ReviewsCards d-flex flex-column justify-content-center position-relative">
+  <div class="owl-carousel">
+    <div class="reviewCard p-3 mx-auto">
+      <div class="d-flex">
+        <div>
+          <div class="star-rating">
+            <span class="d-flex">
+              <div class="star-fill">
+                <img src="image 1.png">
+              </div>
+              <div class="star-fill">
+                <img src="image 1.png">
+              </div>
+              <div class="star-fill">
+                <img src="image 1.png">
+              </div>
+              <div class="star-fill">
+                <img src="image 1.png">
+              </div>
+              <div>
+                <img src="image 1.png">
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div></div> -->
+<!-- 000000000000000000000000000000000000000000000 -->
+
+<!-- 
+
+              <div id="carouselExampleDark" class="carousel carousel-dark slide">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleDark"
                    data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -50,7 +151,7 @@
                                        top: 73px;
                                        left: 72%;
                                        ">
-                                       </i>
+                                       </i>                     
                           </div>
                      </div>
                     </div>
@@ -76,8 +177,4 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-              </div>
-        </div>
-        <div class="col-12 col-md-2"></div>
-    </div>
-</div>
+              </div> -->
