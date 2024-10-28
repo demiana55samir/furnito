@@ -5,7 +5,7 @@
 }
 
 .btn{
-    border-color:  #B88E2F;
+    border: 1px solid  #B88E2F;
                 border-radius: 0%;
                 color: white;
                 padding-left: 50px;
@@ -16,13 +16,25 @@
 
 /* owl-carousel.component.scss */
 
-.owl-carousel .item {
+// .container {
+//     margin-top: 20px;
+//   }
+  
+  .owl-carousel .item {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 15px;
+    margin: 3px;
+    width: 330px !important;
   }
-  
+//   ::ng-deep{
+//     .owl-item{
+//     width:330px !important;
+//     }
+//     }
+//   .owl-item{
+//     width: 330px !important;
+//   }
   .card {
     width: 100%;
     max-width: 300px;
@@ -30,6 +42,7 @@
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
   }
   
   .card-body {
@@ -40,35 +53,13 @@
   .card-body img {
     width: 100%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 10px;
   }
   
   .card-title {
     margin-top: 15px;
     font-size: 1.25rem;
     font-weight: bold;
-  }
-  
-  /* Custom styles for your reviews */
-  .reviewCard {
-    padding: 20px;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-  }
-  
-  .star-rating {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .star-fill {
-    margin-right: 5px;
-  }
-  
-  .star-fill img {
-    width: 22px;
-    height: 22px;
   }
   
   /* Owl Carousel custom navigation styles */
@@ -80,6 +71,7 @@
     background-color: transparent;
     border: none;
     font-size: 2rem;
+    color: #555;
   }
   
   .owl-nav button.owl-prev {
@@ -92,7 +84,7 @@
   
   .owl-nav button.owl-prev:hover,
   .owl-nav button.owl-next:hover {
-    color: #555;
+    color: #000;
   }
   
   /* Owl Carousel pagination styles */
@@ -103,6 +95,7 @@
     margin: 5px;
     background: #ddd;
     border-radius: 50%;
+    transition: background 0.3s;
   }
   
   .owl-dots .owl-dot.active {

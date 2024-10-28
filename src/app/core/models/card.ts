@@ -5,5 +5,6 @@ export interface Card {
     originalPrice: string;
     image: string;
     discount: string;
+    // new:boolean;
 }
 
