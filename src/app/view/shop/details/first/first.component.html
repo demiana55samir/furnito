@@ -13,18 +13,22 @@
         </div>
     </div>
     <div class="container mt-5">
+
         <div class="d-md-flex d-block ">
            <div class="d-flex col-md-6 col-12 me-5">
             <div class="d-flex flex-column col-md-3 ">
-                <img class="img-side" src="details0.png" alt="img">
-                <img class="img-side" src="details1.png" alt="img">
-                <img class="img-side" src="details2.png" alt="img">
-                <img class="img-side" src="details3.png" alt="img">
+               <div class="img-side" > <img src="details0.png" alt="img"  (click)="changeImage('details0.png') "></div> 
+                <div class="img-side" ><img  src="details1.png" (click)="changeImage('details1.png') "></div>
+                <div class="img-side"><img  src="details2.png" (click)="changeImage('details2.png') "></div>
+                <div class="img-side"><img src="details3.png" (click)="changeImage('details3.png') "></div>
             </div>
             <div class="col-md-3 col-9">
-                <img class="covers" src="Asgaard .png" alt="img">
+                <img class="covers" [src]="cover" alt="img">
             </div>
            </div>
+
+          
+          
            <div class="side col-md-6 col-12 m-2 ">
             <h1>Asgaard sofa</h1>
             <h4 class="tex">Rs. 250,000.00</h4>
@@ -56,8 +60,12 @@
             </div>
 
             <div class="mt-4">
-                <button class="btn add ps-4 pe-4 "> 
-                    <span class="me-3">-</span> 1 <span class="ms-3">+</span></button>
+                    <button class="btn add ps-4 pe-4">
+                        <span class="me-3" (click)="decrement()">-</span> 
+                        {{ count }} 
+                        <span class="ms-3" (click)="increment()">+</span>
+                      </button>
+                      
                 <button class="btn add  ps-5 pe-5"> Add To Card  </button>
                 <button class="btn add  ps-5 pe-5"> Compare </button>
             </div>

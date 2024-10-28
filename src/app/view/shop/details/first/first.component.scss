@@ -82,8 +82,8 @@
     
     .img-side{
         background-color: #F9F1E7;
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 63px;
         margin: 10px;
         border-radius: 10px;
         padding: 5px;
@@ -93,6 +93,9 @@
         background-color: #F9F1E7;
         border-radius: 10px;
         padding: 5px;
+        width: 450px;
+        height: 350px;
+        object-fit: cover;
         @media (max-width: 768px) {
             width: 250px;
             height: 250px;
@@ -103,3 +106,33 @@
     .side{
         margin-left: auto;
     }
+
+   //  /***********************************/
+
+   // .slick-slide {
+   //    margin: 0 10px;
+   //  }
+    
+   //  .slick-slide img {
+   //    width: 100%;
+   //  }
+    
+   //  .slider-nav .slick-slide {
+   //    opacity: 0.6;
+   //  }
+    
+   //  .slider-nav .slick-slide.slick-current {
+   //    opacity: 1;
+   //  }
+    
+   //  .img-side {
+   //    width: 100%;
+   //    height: auto;
+   //    cursor: pointer;
+   //  }
+    
+   //  .covers {
+   //    width: 100%;
+   //    height: auto;
+   //  }
+    

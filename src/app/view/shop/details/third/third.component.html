@@ -1,7 +1,7 @@
 <div class="container  text-center align-items-center justify-content-center">
     <h1 class="mt-5 mb-4">Related Products</h1>
     <div class="row mb-md-4">
-      <div class="col-12 col-md-3" *ngFor="let card of card">
+      <div class="col-12 col-md-3" *ngFor="let card of cards">
         <div class="card align-text-start position-relative">
           <div *ngIf="card.discount" class="discount">{{ card.discount }}</div>
           <img class="card-img-top rounded mx-auto d-block" [src]="card.image" alt="Card image cap">
